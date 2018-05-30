@@ -2,9 +2,9 @@
 // pairing up elements. e.g. ['a', 'b', 'c', 'd'] becomes
 // {'a' => 'b', 'c' => 'd'}
 // function convertArrayToAnObject (arr) {
-//   var obj = {}
-//   for (var i = 0; i < arr.length; i++) {
-//     obj.window[`${arr[i]}`] = `${arr[i+1]}`;
+//   var obj = {};
+//   for (var i = 0; i < arr.length; i+=2) {
+//     obj[`${arr[i]}`] = `${arr[i+1]}`;
 //   }
 //   return obj;
 // }
